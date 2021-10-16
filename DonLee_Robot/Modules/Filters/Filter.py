@@ -207,7 +207,7 @@ async def auto_filter(bot, update):
         reply_markup = InlineKeyboardMarkup(buttons)
         await bot.send_message(
         chat_id=update.chat.id,
-        text=f"<b>Sorry I couldn't find anything for <code>{the_query}</code> 🤧\nTry Reading the instructions below</b> 👇🏽",
+        text=f"<b>Sorry I couldn't find anything for <code>{the_query}</code> 🤧\nSearch in Google.com for Correct Spelling\nDon't Forget to check the instructions below</b> 👇🏽",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=update.message_id)
@@ -306,7 +306,8 @@ async def auto_filter(bot, update):
 
             await bot.send_photo(
                 photo=movie_url,
-                caption=f"""🎬 Title : {query}\n🗃️ Total Files : {len_results if len_results <= max_pages*8 else max_pages*8}""",
+                caption=f"""🎬 Title : {query}\n🗃️ Total Files : {len_results if len_results <= max_pages*8 else max_pages*8}\n<b>Select the File Below👇</b>
+Couldn't Find the Movie you are Searching For...?👀\nThen Type <code>#request {query}</code> """,
                 reply_markup=reply_markup,
                 chat_id=update.chat.id,
                 reply_to_message_id=update.message_id,
