@@ -3,17 +3,14 @@ class Translation(object):
   
     START_TEXT = """<b>🙋‍♂️Hey {}!!</b>
 
-<i>I'm a Powerful Movie Providing Bot🐽��</i>
+<i>I'm a Advanced & Powerful Movie Providing Bot Created To Provide Movies in @adbz_filmworld Just Join Group and See my Pewer🔥🔥😝</i>
 
-<i>Wanna See it...?👀</i>
+<i>Don't Forget to Click the Help Button Below🤪</i>
 
-<b>Then,</b>
-Check👇
-@ADBZ_Filmworld"""    
+<b>Join👇
+@ADBZ_Filmworld</b>"""    
     
     HELP_TEXT = """
-<b>🙋‍♂️Hey {}!!</b>
-
 <b>Bot Commands (Works Only In Groups):</b>
 
 ☞ <code>/add chat_id</code> - <b>To Connect A Group With A Channel (Bot Should Be Admin With Full Previlages In Both Group And Channel)</b>
