@@ -28,7 +28,7 @@ async def start(bot, update):
             await update.reply_text(
                 text=Mo_Tech_YT.MO_TECH_YT_14,
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=" 📢 Join group 📢", url=f"https://t.me/{Mo_Tech_YT.MO_TECH_YT_15}")]
+                    [ InlineKeyboardButton(text=" 📢 Join My Update Channel 📢", url=f"https://t.me/{Mo_Tech_YT.MO_TECH_YT_15}")]
               ])
             )
             return
@@ -73,11 +73,11 @@ async def start(bot, update):
                   [
                       Mo_Tech_YT.MO_TECH_YT_02
                           (
-                              '📢Main Channel', url='t.me/adbz_linkz'
+                              '📢Update Channel', url='t.me/Mo_Tech_YT'
                           ),
                       Mo_Tech_YT.MO_TECH_YT_02
                           (
-                              '📢Main Group', url='t.me/adbz_filmworld'
+                              '💡More Botz', url='t.me/MT_Botz'
                           )
                   ],
                   [
